@@ -62,14 +62,14 @@ Normalize the following object to an array of objects.
 
 ```
 [
-  { id: 1, name: "John Doe", age: 20, liked: true },
-  { id: 2, name: "Jane Doe", age: 30, liked: false },
-  { id: 3, name: "John Smith", age: 40, liked: true },
-  { id: 4, name: "Jason Doe", age: 20, liked: false },
-  { id: 5, name: "Josh Doe", age: 30, liked: false },
-  { id: 6, name: "Karen Smith", age: 40, liked: false },
-  { id: 7, name: "Jasmine Doe", age: 20, liked: true },
-  { id: 8, name: "Bob Doe", age: 30, liked: false },
-  { id: 9, name: "Tom Smith", age: 40, liked: true }
+  { id: 1, name: "John Doe", age: 20, reaction: 'liked' },
+  { id: 2, name: "Jane Doe", age: 30, reaction: 'liked' },
+  { id: 3, name: "John Smith", age: 40, reaction: 'liked' },
+  { id: 4, name: "Jason Doe", age: 20, reaction: 'disliked' },
+  { id: 5, name: "Josh Doe", age: 30, reaction: 'disliked' },
+  { id: 6, name: "Karen Smith", age: 40, reaction: 'disliked' },
+  { id: 7, name: "Jasmine Doe", age: 20, reaction: 'loved' },
+  { id: 8, name: "Bob Doe", age: 30, reaction: 'loved' },
+  { id: 9, name: "Tom Smith", age: 40, reaction: 'loved' }
 ]
 ```
